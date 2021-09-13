@@ -1,0 +1,84 @@
+* {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  place-content: space-between;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.logo {
+  width: 155px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-header {
+  padding-top: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.blog-contact {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+
+.menu-item1 {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-item2 {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 3px;
+}
+
+.item {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #3cdbc0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 5em;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bolder;
+  word-spacing: 100vh;
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+}
